@@ -1,0 +1,16 @@
+
+CREATE DATABASE admin;
+
+CREATE TABLE admin(
+    id int NOT NULL AUTO_INCREMENT,
+    name varchar(55),
+    email varchar(45),
+    number int,
+    plan varchar(95),
+    address varchar(55),
+    message varchar(95),
+    
+    
+    PRIMARY KEY(id)
+);
+
