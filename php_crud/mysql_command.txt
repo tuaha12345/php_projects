@@ -1,0 +1,17 @@
+Database create: CREATE DATABASE php_project;
+
+Create Table: 			
+                    CREATE TABLE users (
+					    id INT AUTO_INCREMENT PRIMARY KEY,
+					    name VARCHAR(255) NOT NULL,
+					    email VARCHAR(255) NOT NULL,
+					    mobile VARCHAR(15),
+					    password VARCHAR(255) NOT NULL
+					);
+
+Insert Data into the table: 
+
+					INSERT INTO users (name, email, mobile, password)
+					VALUES
+					    ('John Doe', 'john@example.com', '1234567890', 'hashed_password'),
+					    ('Alice Smith', 'alice@example.com', '9876543210', 'another_hashed_password');
