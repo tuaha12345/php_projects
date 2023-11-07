@@ -1,0 +1,9 @@
+CREATE TABLE user_payments (
+    payment_id INT(11) NOT NULL AUTO_INCREMENT,
+    order_id INT(11),
+    invoice_number VARCHAR(255),
+    amount DECIMAL(10,2),
+    payment_mode VARCHAR(50),
+    date DATE,
+    PRIMARY KEY (payment_id)
+);

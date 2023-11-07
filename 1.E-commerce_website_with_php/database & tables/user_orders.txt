@@ -1,0 +1,10 @@
+CREATE TABLE user_orders (
+    order_id INT(11) NOT NULL AUTO_INCREMENT,
+    user_id INT(11),
+    amount_due INT(11),
+    invoice_number VARCHAR(255),
+    total_products INT(11),
+    order_date TIMESTAMP,
+    order_status VARCHAR(255),
+    PRIMARY KEY (order_id)
+);

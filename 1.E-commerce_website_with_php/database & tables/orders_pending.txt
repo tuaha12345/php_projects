@@ -1,0 +1,9 @@
+CREATE TABLE orders_pending (
+    order_id INT(11) NOT NULL AUTO_INCREMENT,
+    user_id INT(11),
+    invoice_number VARCHAR(255),
+    product_id INT(11),
+    quantity INT(11),
+    order_status VARCHAR(255),
+    PRIMARY KEY (order_id)
+);

@@ -1,0 +1,5 @@
+CREATE TABLE brands (
+    brand_id INT(11) NOT NULL AUTO_INCREMENT,
+    brand_title VARCHAR(255) NOT NULL,
+    PRIMARY KEY (brand_id)
+)

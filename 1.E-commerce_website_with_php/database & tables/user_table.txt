@@ -1,0 +1,11 @@
+CREATE TABLE user_table (
+    user_id INT(11) NOT NULL AUTO_INCREMENT,
+    user_name VARCHAR(255),
+    user_email VARCHAR(255),
+    user_password VARCHAR(255),
+    user_image VARCHAR(255),
+    user_ip VARCHAR(15),
+    user_address VARCHAR(255),
+    user_mobile VARCHAR(15),
+    PRIMARY KEY (user_id)
+);
