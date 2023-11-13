@@ -1,0 +1,9 @@
+CREATE DATABASE storeis;
+
+CREATE TABLE topics (
+    topic_id INT PRIMARY KEY,
+    topic_image VARCHAR(255),
+    topic_name VARCHAR(100),
+    topic_description TEXT,
+    timeStamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
