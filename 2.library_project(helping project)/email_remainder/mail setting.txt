@@ -1,0 +1,6 @@
+1.Gmail:
+Note: 2-step varification must be enable
+
+2.visit this link: https://myaccount.google.com/apppasswords and insert the app name(phpmailer)
+  then give appname and click create button and finally you will get the app password
+3.Insert your gmail  and this password in the mail.php->suerver setting
