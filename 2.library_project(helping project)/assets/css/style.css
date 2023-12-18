@@ -1,0 +1,360 @@
+/* --------------------Main code Index------------------- */
+
+section .sec_img{
+    height: 100%;
+    background-image: url(../images/index.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.index_index{
+    padding-top: 7%;
+    padding-bottom: 6.8%;
+}
+
+.box{
+    height: 350px;
+    width: 450px;
+    background-color: rgba(160, 157, 157, 0.507);
+    margin: 0px auto;
+    color: black;
+    opacity: .9;
+}
+
+section.index .index-tab{
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0.863);
+    padding: 60px;
+    text-align: center;
+    font-weight: bolder;
+    -webkit-text-stroke-width: thin;
+}
+
+section.index .index-tab1 {
+    margin-top: -50px;
+    float: left;
+    background: #F1F6F9;
+    padding: 0px;
+    border-radius: 1em;
+}
+section.index .index-tab2 {
+    margin-top: -50px;
+    float: right;
+    background: #F1F6F9;
+    padding: 0px;
+    border-radius: 1em;
+}
+section.index .index-tab a:hover{
+    color: #e75733;
+}
+
+/*-------------------- login --------------------*/
+
+.log_img{
+    height: 100%;
+    background-image: url(../images/login.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.log_log{
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+}
+
+.box1{
+    height: 450px;
+    width: 420px;
+    background-color: #0009;
+    margin: 0px auto;
+    color: white;
+    padding: 20px;
+}
+form .login{
+    margin: auto 50px ;
+}
+input{
+    height: 25px;
+    width: 300px;
+}
+/*-------------------- signup --------------------*/
+.signup_img{
+    height: 100%;
+    background-image: url(../images/60.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*-------------------- reg --------------------*/
+.reg_img{
+    height: 100%;
+    background-image: url(../images/reg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box2{
+    height: 537px;
+    width: 470px;
+    background-color: #0009;
+    margin: 0px auto;
+    color: white;
+    padding: 10px;
+}
+/*-------------------- feedback --------------------*/
+.feed_img{
+    height: 100%;
+    background-image: url(../images/feedback.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box3{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(245, 245, 245, 0.658);
+    margin: 0px auto;
+    color: black;
+    position: center;
+}
+.feed_scroll{
+    width: 100%;
+    height: 376px;
+    overflow: auto;
+}
+
+.feed_scroll_scroll{
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+}
+.scroll{
+    width: 100%;
+    height: 265px;
+    overflow: auto;
+}
+.scroll_book{
+    width: 100%;
+    height: 330px;
+    overflow: auto;
+}
+body.feedback .form-control{
+    height: 70px;
+}
+
+    /* ---------------------------update_pass------------------- */
+
+    body.update_pass{
+        height: 100%;
+        background-image: url("../images/40.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;    
+    }
+    .update_pass .wrapper{
+        width: 400px;
+        height: 400px;
+        margin: 60px auto;
+        background-color: #0009;
+        opacity: .9;
+        color: white;
+        padding: 15px 40px;
+    }        
+
+/* ---------------------------add_books------------------- */
+
+body.add_books .add_books{
+    height: 530px;
+    width: 500px;
+    background-color: #0008;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    padding: 20px;
+}
+
+body.student .srch
+{
+    padding-left: 75%;            
+}
+
+body.books .srch
+{
+    padding-left: 75%;            
+}
+body.books  {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+    }
+    th,td
+    {
+      width: 10%;
+    }
+        .books .sidenav {
+    height: 100%;
+    margin-top: 60px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    }
+
+    .books .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+
+    .books .sidenav a:hover {
+    color: #f1f1f1;
+    }
+
+    .books .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+
+    #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    }
+
+    @media screen and (max-height: 450px) {
+    .books .sidenav {padding-top: 15px;}
+    .books .sidenav a {font-size: 18px;}
+    }
+
+    .books .img-circle{
+        margin-left: 50px;
+    }
+    .books .h:hover{
+        color: white;
+        background-color: #61c6e4;
+    }
+
+    /* --------------------------book approve------------------- */
+    body.books .approve{
+        width: 400px;
+        height: 400px;
+        margin: 0px auto;
+        margin-top: 5vh;
+        background-color: #0008;
+        opacity: .9;
+        color: white;
+        padding: 27px 20px;
+        position: center;
+    }
+
+    /* --------------------------profile------------------------- */
+    /* --------------------------profile-edit----------------------- */
+    body.profile{
+        height: 100%;
+        background-image: url("../images/profile.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;    
+    }
+
+    .profile .container .wrapper{
+        height: 530px;
+        width: 460px;
+        margin: 0 auto;
+        background-color:rgba(245, 245, 245, 0.562);
+        color: black;
+        padding: 20px 10px;
+        opacity: .9;
+    }
+    .profile .container .wrapper .table{
+        border-width: medium;
+        border-color: black;
+    }
+
+    .profile .container .wrapper tr{
+        font-size: large;
+        font-weight: bold;
+    }
+    .profile .container .wrapper form h5{
+        font-weight: bold;
+    }
+
+    /* --------------------------about------------------------- */
+    .about .main{
+        padding: 5px 5px 5px;
+        background-color: rgb(186, 240, 241);
+    }
+    .hour{
+        height: 224px;
+        width: 260px;
+        border: 2px solid blue;
+   }
+    .rules{
+        margin-top: -224px;
+        float: right;
+        height: 224px;
+        width: 1050px;
+        border: 2px solid red;
+   }
+
+   .location{
+    margin-bottom: 0%;
+    height: 300px;
+    width: 1340px;
+    border: 2px solid rgb(186, 240, 241);
+
+   }
+
+   .loc{
+       margin-top: 5px;
+        height: 280px;
+        width: 1050px;
+        border: 2px solid blue;
+    }
+    .con{
+        margin-top: 5px;
+        float: right;
+        height: 280px;
+        width: 260px;
+        border: 2px solid blue;
+        padding-bottom: 0px;
+   }
+
+   .hour_th{
+    background-color: blue;
+    color: white; 
+    padding: 1px; 
+    text-align: center;
+   }
+   .rules_th{
+    background-color: red;
+    color: white; 
+    padding: 1px; 
+    text-align: center;
+   }
+   .con_th{
+    background-color: blue;
+    color: white; 
+    padding: 1px; 
+    text-align: center;
+   }
