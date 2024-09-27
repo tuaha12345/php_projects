@@ -1,0 +1,180 @@
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+
+  background-color:black;
+  color:rgb(199, 252, 131);
+
+}
+
+.container {
+  height: calc(100vh - 70px);
+  position: relative;
+  text-align: center;
+  color: var(--black);
+}
+
+
+/* **********rgb(180, 182, 252)
+/* uporer bar */
+
+
+.uporerbar {
+  padding-inline: 10%;
+  height: 70px;
+  background-color:#4fc4ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoofweb img {
+  width: 77px;
+  height: auto;
+}
+
+.uporerbar_list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.uporerbar_list li a {
+  text-decoration: none;
+  color:#D96E30;
+  position: relative;
+}
+
+.uporerbar_list li a:hover {
+  color: rgb(67, 245, 31);
+}
+
+.uporerbar_list li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(42, 165, 42);
+  bottom: -2px;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.uporerbar_list li a:hover::after {
+  transform: scaleX(1);
+}
+.uporerbar_list li a.active {
+  color: brown;
+}
+.nav_list li a.active::after {
+  transform: scaleX(1);
+}
+
+/* ************ */
+/* Home Section */
+/* ************ */
+
+.container h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  color:#30ced9 ;
+  padding-top: 4%;
+  z-index: 100;
+}
+.container p {
+  color: var(--black);
+  padding-inline: 25%;
+  z-index: 100;
+}
+.car_image {
+  position: absolute;
+  width: 30vw;
+  left: 33%;
+  bottom: -45px;
+  z-index: 0;
+  margin-top: 25px;
+
+}
+
+
+.footer {
+  color: var(--black);
+  color: rgb(49, 230, 243);
+  font-weight: 500;
+  padding-block: 20px;
+  padding-inline: 10%;
+  background-color: black;
+  text-align: center;
+}
+
+
+/* --------new changesssssssssssssssssssss----- */
+
+.new_nav{
+  /* background-color: #1db8d4; */
+  display: flex;
+  width: 94%;
+  padding: 40px;
+  background-image: url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1883&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+.nav_1{
+  width: 40%;
+}
+.nav_1 a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  
+}
+.nav_1 a:hover{
+  padding: 7px;
+  color:#22aaaf;
+  font-size: 20px;
+
+  
+}
+.nav_2{
+  width: 60%;
+  color:white;
+  font-size: 20px;
+ 
+}
+.message{
+  color:dimgrey
+}
+.home_container{
+  height: 1100px;
+  display: flex;
+ 
+}
+.details {
+  border: 3px solid #30ced9;
+  cursor: pointer;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+}
+.details h3 {
+  color: #30d971;
+  font-weight: 400;
+}
+.details:hover {
+  background-color: rgb(9, 43, 53);
+  transition: all 250ms;
+}
+.details:hover h3 {
+  color: var(--black);
+}

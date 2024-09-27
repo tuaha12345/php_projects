@@ -1,0 +1,96 @@
+.search_container {
+    display: flex;
+    justify-content: center;
+    margin-block: 15px;
+  }
+  .search_container input {
+    background-color: rgb(190, 245, 255);
+    padding: 7px 15px;
+    font-size: 15px;
+    width: 18vw;
+  }
+  .search_container input[id="model"] {
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid #2a8ca5;
+    border-right: none;
+    outline: none;
+  }
+  .search_container input[id="location"] {
+    border: 2px solid #2a8ca5;
+    border-right: none;
+    outline: none;
+  }
+  .search_container button {
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #2a8ca5;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(42, 165, 67);
+  }
+  
+  
+  .search_container button img {
+    width: 25px;
+    aspect-ratio: 1;
+  }
+  
+
+  .search_card_main{
+    
+    width: 1200px;
+    /* height: 1200px; */
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    padding: 50px 20px;
+    gap: 20px;
+    justify-content: center;
+    
+
+    
+  }
+
+.search_card_container{
+    border: 2px solid rgb(42, 140, 165);
+    float: left;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    /* height: 400px; */
+    height: 300px;
+    
+}
+
+.search_card_container:hover{
+    border: 2px solid rgb(42, 165, 118);
+    float: left;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    /* height: 400px; */
+    height: 300px;
+    background-color:rgb(2, 182, 182);
+   
+
+    
+}
+
+.search_car_card_img{
+   border-top-right-radius:20px ;
+   border-top-left-radius:20px ;
+   padding: 0px;
+
+}
+ 
+.search_car_card_text{
+    padding-left: 27px;
+    font-size: 13px;
+    color: grey;
+    
+}
+
+

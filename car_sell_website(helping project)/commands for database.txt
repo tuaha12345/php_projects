@@ -1,0 +1,28 @@
+Create database:
+      CREATE DATABASE car_sell_website;
+
+Create Seller table:
+      CREATE TABLE seller_table (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    phone_number VARCHAR(15) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+      );
+
+
+CREATE Car table:
+      CREATE TABLE car_table (
+    car_id INT AUTO_INCREMENT PRIMARY KEY,
+    make VARCHAR(50) NOT NULL,
+    model VARCHAR(50) NOT NULL,
+    year YEAR NOT NULL,
+    mileage INT NOT NULL,
+    location VARCHAR(100) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    seller_id INT,
+    FOREIGN KEY (seller_id) REFERENCES seller_table(id)
+   );
+

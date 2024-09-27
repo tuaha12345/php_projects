@@ -1,0 +1,1 @@
+<footer class="footer"><p> &copy; Copyright 2024 | Araf's Moto Corp</p></footer>

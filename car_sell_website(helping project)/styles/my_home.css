@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    margin: 0%;
+}
+.nav{
+    width: 13%;
+    background-color: rgb(21, 158, 231);
+    padding: 20px;
+    color: white;
+}
+.content{
+    width:87%;
+    background-color: rgb(18, 31, 35);
+    color: rgb(201, 223, 236);
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+  }
+
+ .heading{
+    text-align: center;
+    font-size: 27px;
+    padding: 20px;
+ } 
+
+ .content h1{
+    
+ }

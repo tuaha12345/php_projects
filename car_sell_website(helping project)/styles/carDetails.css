@@ -1,0 +1,42 @@
+
+.car_main_div{
+    display: grid;
+    justify-content: center;
+}
+
+.car_card{
+
+    border: 2px solid brown;
+    border-radius: 20px;
+    width: 700px;
+    margin: 50px 0px;
+    display: grid;
+    justify-content: center;
+    padding:50px;
+}
+
+.car_info{
+    background-color: ;
+    margin: 0px;
+    display: flex;
+    
+}
+.car_img{
+    
+    border-radius: 50px;
+}
+.div2{
+
+   padding-left: 40px;
+   color: gray;
+}
+.div1{
+
+    padding-right: 40px;
+    padding-left: 40px;
+    color: gray;
+ }
+
+ h3{
+    color: black;
+ }
