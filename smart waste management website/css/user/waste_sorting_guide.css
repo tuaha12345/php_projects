@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+}
+.guide-container {
+    margin-top: 50px;
+}
+.guide-title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+}
+.waste-type {
+    margin-bottom: 30px;
+}
+.waste-type .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.waste-type h4 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+.waste-type p {
+    color: #555;
+    font-size: 1rem;
+}
+.img-fluid {
+    border-radius: 8px;
+}
+.tips {
+    background-color: #e9f7ef;
+    border-left: 4px solid #28a745;
+    padding: 15px;
+    font-size: 1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.tips strong {
+    color: #155724;
+}

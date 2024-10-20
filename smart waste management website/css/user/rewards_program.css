@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f8f0;
+    font-family: 'Roboto', sans-serif;
+}
+.rewards-container {
+    margin-top: 50px;
+}
+.card {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 15px;
+}
+.leaderboard-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.leaderboard-item {
+    border-left: 4px solid #4CAF50;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.leaderboard-rank {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4CAF50;
+}
+.user-rank {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+.btn-success {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+.rewards-details {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+}

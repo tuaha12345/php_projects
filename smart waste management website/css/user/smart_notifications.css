@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa;
+}
+.body_container {
+    max-width: 700px;
+    margin-top: 50px;
+}
+.notification-icon {
+    margin-right: 10px;
+}
+.notification-time {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+.empty-state {
+    text-align: center;
+    color: #6c757d;
+}
+.notification-success {
+    background-color: #e9f7ef;
+}
+.notification-warning {
+    background-color: #fff3cd;
+}
+.notification-info {
+    background-color: #d1ecf1;
+}

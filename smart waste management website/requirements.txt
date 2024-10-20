@@ -1,0 +1,35 @@
+
+A smart waste management website:
+
+1. In this website people can subscribe to this service and there will be monthly subscription system. 
+   People can register into this service. Then log in to this service through the website. 
+
+2. This website can send notifications about upcoming waste collection days, this can be customized 
+   based on the user's location and type of waste(eg, general waste, recycling, compost).
+
+3. This website can offer an easy to use guide on how to sort different types of waste correctly according to recyclable, 
+   compostable or need special disposal.
+
+4. There will be a Leaderboard, where users will be ranked and will be awarded with points according to how much 
+   waste/trash they have dumped.
+
+5. Users can request special pickups for bulk items like furniture or hazardous materials. Which may require separate handling.
+
+6. Users can give feedback through the website. Users can report issues like missed pickups or thank them for their good work.
+
+
+if waste_types are empty then create new table and insert this values:
+CREATE TABLE Waste_Types (
+    waste_type_id INT AUTO_INCREMENT PRIMARY KEY,
+    waste_name VARCHAR(255) NOT NULL,
+    description TEXT
+);
+
+
+INSERT INTO Waste_Types (waste_name, description)
+VALUES
+('General Waste', 'Items that cannot be recycled or composted.'),
+('Recycling', 'Paper, plastics, metals, and glass that can be recycled.'),
+('Compost', 'Organic waste like food scraps, garden waste, etc.'),
+('Hazardous Waste', 'Items like batteries, electronics, chemicals that require special disposal.');
+
